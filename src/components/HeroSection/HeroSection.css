@@ -32,7 +32,7 @@
   left: 0;
   width: 100%;
   z-index: 10;
-  color: #d4af37cc;
+  color: #d4af37;
   font-weight: bold;
   filter: drop-shadow(0 0 4px rgba(255, 255, 255, 1)) drop-shadow(0 0 10px rgba(255, 255, 255, 1)) drop-shadow(0 0 25px rgba(255, 255, 255, 1)) drop-shadow(0 0 50px rgba(255, 255, 255, 0.8));
   display: flex;
