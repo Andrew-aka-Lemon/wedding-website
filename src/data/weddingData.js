@@ -16,7 +16,7 @@ export const weddingData = {
 
   // Date & Countdown
   date: {
-    label: 'Date',
+    label: 'Дата',
     dateString: '03.07.2026',
     countdownLabel: 'До весілля залишилось',
     targetDate: new Date('2026-07-03T11:30:00'),
