@@ -1,16 +1,67 @@
-# React + Vite
+# 💍 Весільне запрошення — Андрій та Марина
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Wedding Website Preview](./src/assets/groom_and_bride.jpg)
 
-Currently, two official plugins are available:
+Елегантний та сучасний веб-сайт запрошення на весілля. Створений з любов'ю, щоб поділитися найважливішим днем з рідними та друзями.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Сайт адаптований під будь-які пристрої, має плавні анімації, живий таймер зворотного відліку та інтерактивні посилання на локації.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🌸 Особливості проекту
 
-## Expanding the ESLint configuration
+* **Сучасний дизайн**: Мінімалістичний інтерфейс з використанням витончених шрифтів (Great Vibes, Playfair Display, Hanken Grotesk).
+* **Адаптивність**: Ідеально виглядає як на великих екранах, так і на мобільних телефонах.
+* **Анімації**: Плавна поява елементів при скролінгу завдяки бібліотеці `AOS` (Animate On Scroll).
+* **Живий таймер**: Автоматичний підрахунок днів, годин, хвилин та секунд до моменту церемонії.
+* **Локації**: Зручна інтеграція з Google Maps для швидкого пошуку ДРАЦСу та ресторану.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 💻 Технологічний стек
+
+* **React 18** — бібліотека для побудови інтерфейсу.
+* **Vite** — надшвидкий інструмент для збірки проекту.
+* **Vanilla CSS** — для повної кастомізації та легковажності.
+* **gh-pages** — для простого розгортання на GitHub Pages.
+
+---
+
+## 🛠 Як запустити локально
+
+Якщо ви хочете запустити проект у себе на комп'ютері:
+
+1. Склонуйте репозиторій:
+   ```bash
+   git clone https://github.com/Andrew-aka-Lemon/wedding-website.git
+   ```
+2. Перейдіть у папку проекту:
+   ```bash
+   cd wedding-website
+   ```
+3. Встановіть залежності:
+   ```bash
+   npm install
+   ```
+4. Запустіть сервер для розробки:
+   ```bash
+   npm run dev
+   ```
+5. Відкрийте браузер за адресою `http://localhost:5173`.
+
+---
+
+## 🚀 Як опублікувати (Deploy)
+
+Проект налаштований для автоматичної публікації на **GitHub Pages** за допомогою однієї команди.
+
+1. Переконайтеся, що всі ваші зміни зафіксовані (commit) та відправлені на GitHub (push).
+2. Виконайте команду:
+   ```bash
+   npm run deploy
+   ```
+3. Скрипт автоматично збере оптимізовану версію сайту і завантажить її на гілку `gh-pages`. Сайт буде доступний за вашим посиланням на GitHub Pages за кілька хвилин!
+
+---
+
+*З любов'ю та натхненням розроблено для незабутнього дня! 🥂*

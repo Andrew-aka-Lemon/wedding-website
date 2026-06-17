@@ -25,7 +25,7 @@ export default function HeroSection() {
           data-aos-duration="600"
           data-aos-once="true"
         >
-          <span className="name-step name-1">Андрій</span>
+          <span className="name-step name-1"><span className="cursive-a">А</span>ндрій</span>
           <span className="name-step name-2">та</span>
           <span className="name-step name-3">Марина</span>
         </div>
