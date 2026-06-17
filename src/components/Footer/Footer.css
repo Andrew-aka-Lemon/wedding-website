@@ -1,0 +1,28 @@
+.footer__divider {
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, rgba(212, 175, 55, 0), rgba(212, 175, 55, 0.8), rgba(212, 175, 55, 0));
+  margin: 0 auto;
+  width: 80%;
+  max-width: 800px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 20px 60px;
+}
+
+.footer__text {
+  font-family: 'Great Vibes', cursive;
+  font-size: clamp(28px, 28px + 30 * (100vw - 375px) / 1065, 58px);
+  color: #2d2d2d;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 50px 20px 40px;
+  }
+}
